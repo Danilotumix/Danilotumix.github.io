@@ -1,0 +1,31 @@
+{
+  "name": "testo",
+  "version": "1.0.0",
+  "description": "Test game with phaser",
+  "main": "index.js",
+  "scripts": { 
+    "build": "webpack", 
+    "dev": "webpack-dev-server" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danilotumix/Testo.git"
+  },
+  "author": "Danilotumix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danilotumix/Testo/issues"
+  },
+  "homepage": "https://github.com/Danilotumix/Testo#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "phaser": "^3.24.1"
+  }
+}
