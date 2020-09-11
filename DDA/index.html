@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>DD1</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <div class="header">
+    <h1>DD1 - Física para ciencias de la computación</h1>
+    <h2>Integrantes:</h2>
+      <ul>
+        <li>oof</li>
+        <li>eef</li>
+        <li>aaf</li>
+        <li>iif</li>
+      </ul>
+  </div>
+  <br>
+  <!-- Canvas -->
+  
+  <div class="canvas">
+    <canvas id="myCanvas" tabindex="1" width="800" height="600" style="border:1px solid #d3d3d3;"></canvas>
+  </div>
+  <div class="input">
+    <p>Ingrese los valores con el número correcto de cifras significativas</p>
+    <label for="v_input">Rapidez inicial (m/s):</label>
+    <input type="text" required pattern="\d{2}(.|,)\d{1}" size="4" id="v_input" name="v_input"><br>
+    <br>
+    <label for="r_input">Radio (cm):</label>
+    <input type="text" required pattern="\d{2}(.|,)\d{1}" size="4" id="r_input" name="r_input"><br>
+    <br>
+    <label for="m_input">Masa (kg):</label>
+    <input type="text" required pattern="\d{1}(.|,)\d{3}" size="4" id="m_input" name="m_input"><br>
+    <br>
+    <label for="alpha_input">Ángulo de<br/> lanzamiento:</label>
+    <input type="text" required pattern="\d+(.|,)?\d+" size="4" id="alpha_input" name="alpha_input"><br>
+    <br>
+    <button type="button" onclick="inputButton()">Introducir</button>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="scripts/index.js" type="module"></script>
+</body>
+</html>
